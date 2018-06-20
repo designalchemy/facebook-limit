@@ -1,0 +1,27 @@
+#innerContainerDiv {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 32px;
+    height: 18px;
+    z-index: 1111111111111111;
+    background: red;
+    color: white;
+    padding: 2px;
+}
+
+#fullPageWrapper {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background: red;
+    color: white;
+    z-index: 1111111111111112;
+    font-size: 20px;
+    padding-top: 30px;
+}
